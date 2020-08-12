@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html, body{
     width: 100%;
     font-family: 'Roboto',sans-serif;
@@ -10,16 +14,17 @@ html, body{
 }
 .nav-bar {
 	background-color: #222;
-	position: fixed;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
 	width: 100%;
     line-height: 50px;
-    z-index: 800;    
+    z-index: 800;
+    min-height: 7vh;
 }
-
 .nav-bar li{
-	display: inline;
 	float: left;
-	padding: 8px;
+    padding: 8px;
 }
 li a{
 	color: #fff;
@@ -37,11 +42,10 @@ li a{
 #logo {
 	display: block;
 	float: left;
-	max-width: 200px;
+    max-width: 20vh;
 	position: relative;
-	padding-left: 20%;
+	margin-left: 200px;
     padding-top: 10px;
-    margin-right: 10%;
 }
 body{
 	margin: 0;
@@ -58,18 +62,16 @@ ul {
     list-style-type: none;
     margin: 0 ;
     padding-left: 8%;
-    display: block;
-	float: right;
+    display: flex;
     position: relative;
-    right: 20%;
+    float: right;
+    right: 10%;
 }
-    
-
 #background-color-middle{
     background-color: #222;
 }
 #middle-box{
-    padding: 0 20% 0 20%;
+    margin: 0 20% 0 20%;
     height: 750px;
     position: relative;
 }
@@ -91,7 +93,6 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    width: 
 }
 #div-botao{
     position: relative;
